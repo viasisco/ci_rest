@@ -1,4 +1,4 @@
-dOptions -Indexes
+Options -Indexes
 
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-f
