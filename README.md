@@ -10,9 +10,12 @@ More info on CodeIgniter [official](https://codeigniter.com/) page and on [githu
 
 # Requirements 
 * Php >= 5.6.x
-* A database, MySQL or PostgreSQL 
+* A database, MySQL > 5.x or PostgreSQL 
 
 #How to ? 
+## Define your database
+Go to config.database.php to enter database name, access, etc. 
+
 ## Define the routes
 Define all the route in application/config/routes. 
 
