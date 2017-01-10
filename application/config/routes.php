@@ -12,7 +12,7 @@ $route['translate_uri_dashes'] = FALSE;
 |------------------------------------------------------------------------
 */
 $route['company']['GET'] = 'companyCtrl/getcompanies';                               // get all companies
-$route['company/:id']['GET'] = 'companyCtrl/getcompany/$1';                          // get a specific company by id
+$route['company/(:num)']['GET'] = 'companyCtrl/getcompany/$1';                          // get a specific company by id
 
 $route['company']['POST'] = 'companyCtrl/setCompany';                                // create a new company
 $route['company/check/(:num)']['POST'] = 'companyCtrl/checkCompany/$1';             //$1 = company ID
